@@ -1,0 +1,88 @@
+body {
+  margin: 0 auto;
+}
+.main {
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+h1 {
+  margin-top: 75px;
+}
+.popupWindow {
+  background-color: #fff;
+  /* border: 1px solid #42b2fc; */
+  box-shadow: 0 0 10px #fff;
+  width: 500px;
+  height: 550px;
+  position: absolute;
+  top: 200px;
+  left: 0;
+  right: 0;
+  margin-left: auto; 
+  margin-right: auto; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 5px;
+}
+.form {
+  background-color: #805262;
+  height: 400px;
+  width: 800px;
+  color: #fff;
+}
+.formPic {
+  background-color: #fff;
+  width: 50%;
+}
+.formPic img {
+  margin-left: 70px;
+  margin-top: 65px;
+}
+.formInput {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.formInput input {
+  text-align: center;
+  margin: 5px 0;
+  height: 40px;
+  width: 250px;
+  border-radius: 10px;
+  border: none;
+}
+
+.formInput h3 {
+  margin: 10px;
+} 
+
+.submitBtn {
+  background-color: #0D8EBF;
+  color: #fff;
+}
+.boardClass {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #E4BD8C;
+  box-shadow: 0 0 30px #E4BD8C;
+  padding: 50px;
+  background-color: #0D8EBF;
+}
+.winnerNameClass {
+  text-align: center;
+}

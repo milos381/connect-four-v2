@@ -1,0 +1,16 @@
+.inlineScore {
+    display: flex;
+    margin: 5px 10px;
+    align-items: center;
+}
+.inlineScore p {
+    margin: 0 3px;
+}
+
+.winnerScoreboard {
+    display: flex;
+    justify-content: space-evenly;
+}
+.scoreList {
+    display: flex;
+}

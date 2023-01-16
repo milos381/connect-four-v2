@@ -1,0 +1,36 @@
+.popupBtn {
+    margin: 30px 20px;
+    padding: 10px 20px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    background-color: #0D8EBF;
+    color: #fff;
+  }
+  .scoreWindow {
+    background-color: #0D8EBF;
+    height: 355px;
+    margin: 25px 0;
+    border-radius: 5px;
+    text-align: center;
+    overflow: scroll;
+    box-shadow: 0 0 15px rgb(13, 142, 191, .5);
+    color: #fff;
+  }
+  .winnerName {
+    /* background-color: rgb(227, 242, 253); */
+    background-image: url('https://cliply.co/wp-content/uploads/2021/09/CLIPLY_372109170_FREE_FIREWORKS_400.gif');
+    margin-bottom: 50px;
+    width: 400px;
+    height: 350px;
+    text-align: center;
+    color: #0D8EBF;
+  }
+  .popupMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+    
